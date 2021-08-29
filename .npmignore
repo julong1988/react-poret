@@ -1,0 +1,7 @@
+node_modules
+src
+_tmp
+srcipts
+typedoc.json
+scripts
+tsconfig.json
