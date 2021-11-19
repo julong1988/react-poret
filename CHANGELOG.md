@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/jl917/react-poret/compare/v1.0.1...v1.0.2) (2021-11-19)
+
+
+### Bug Fixes
+
+* package 라이센스 수정 ISC => MIT ([ddaf045](https://github.com/jl917/react-poret/commit/ddaf045140e958d604c6de0aaf0a5e40b9796aae))
+
 ## [1.0.1](https://github.com/jl917/react-poret/compare/v1.0.0...v1.0.1) (2021-11-13)
 
 
