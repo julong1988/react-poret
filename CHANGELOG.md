@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/jl917/react-poret/compare/v1.0.3...v1.0.4) (2022-01-04)
+
+
+### Bug Fixes
+
+* usePoretState 추가 ([1164b40](https://github.com/jl917/react-poret/commit/1164b401961e9db1eaa24df9d6d4f3e3bdf09ae7))
+
 ## [1.0.3](https://github.com/jl917/react-poret/compare/v1.0.2...v1.0.3) (2022-01-04)
 
 
