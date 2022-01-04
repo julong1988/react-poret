@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/jl917/react-poret/compare/v1.0.5...v1.0.6) (2022-01-04)
+
+
+### Bug Fixes
+
+* 업데이트 오류 수정(메모리 이슈 보류) ([0cf2ea2](https://github.com/jl917/react-poret/commit/0cf2ea2548bb69d1d3269868bcb35259ee60b642))
+
 ## [1.0.5](https://github.com/jl917/react-poret/compare/v1.0.4...v1.0.5) (2022-01-04)
 
 
