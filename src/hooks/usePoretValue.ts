@@ -7,11 +7,11 @@ const usePoretValue = (quark: Quark) => {
   const [, forceUpdate] = useState<[]>([]);
   const storeRef = useStoreContext();
   const store = storeRef.current;
-  const { key, defaultValue } = quark;
+  const { key, value } = quark;
 
   // once
   if (!store.values.hasOwnProperty(key)) {
-    store.values[key] = defaultValue;
+    store.values[key] = value;
   }
   // update 
   useEffect(() => {

@@ -21,7 +21,7 @@ interface RootState {
 
 interface Quark {
   key: string;
-  defaultValue: any;
+  value: any;
 }
 
 interface QuarkMulti {

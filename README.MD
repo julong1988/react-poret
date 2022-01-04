@@ -22,7 +22,7 @@ render(
 ```jsx
 const countQuark = quark({
   key: 'count',
-  defaultValue: 0
+  value: 0
 })
 ```
 
@@ -33,7 +33,7 @@ import { usePoretValue, useSetPoretState } from 'react-poret';
 
 const countQuark = quark({
   key: 'count',
-  defaultValue: 0
+  value: 0
 })
 
 function Com1() {
@@ -61,7 +61,7 @@ import { usePoretState } from 'react-poret';
 
 const countQuark = quark({
   key: 'count',
-  defaultValue: 0
+  value: 0
 })
 
 function Com1() {

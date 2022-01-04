@@ -3,11 +3,11 @@ import updateValues from '../utils/updateValues';
 
 const useSetPoretState = (quark: Quark) => {
   const store = useStoreContext().current;
-  const { key, defaultValue } = quark;
+  const { key, value } = quark;
 
   // once
   if (!store.values.hasOwnProperty(key)) {
-    store.values[key] = defaultValue;
+    store.values[key] = value;
   }
 
   return (newValue: any) => {
