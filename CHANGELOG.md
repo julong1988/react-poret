@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/jl917/react-poret/compare/v1.0.2...v1.0.3) (2022-01-04)
+
+
+### Bug Fixes
+
+* 용어 변경, 설명 추가 ([de79452](https://github.com/jl917/react-poret/commit/de79452ba7e426ddee57a032ad9088c460dbc65b))
+
 ## [1.0.2](https://github.com/jl917/react-poret/compare/v1.0.1...v1.0.2) (2021-11-19)
 
 
