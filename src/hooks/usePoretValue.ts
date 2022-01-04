@@ -18,6 +18,9 @@ const usePoretValue = (quark: Quark) => {
     store.updateComponents[key] = store.updateComponents[key] || {};
     subId++
     store.updateComponents[key][subId] = () => forceUpdate([])
+    return () => {
+      delete store.updateComponents[key][subId];
+    }
   }, [quark, key, store, storeRef]);
 
   return store.values[key];

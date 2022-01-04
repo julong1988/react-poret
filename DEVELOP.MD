@@ -86,11 +86,14 @@ const usePoretValue = (quark: Quark) => {
   if (!store.values.hasOwnProperty(key)) {
     store.values[key] = value;
   }
-  // update 새로운 quark, key, store일때 새로운 객체 생성 및 usePoretValue를 강제 리프레시.
+  // update 새로운 quark, key, store일때 새로운 객체 생성 및 usePoretValue를 강제 리프레시. 컴포넌트 unmount시 관련 링크 삭제.
   useEffect(() => {
     store.updateComponents[key] = store.updateComponents[key] || {};
     subId++
     store.updateComponents[key][subId] = () => forceUpdate([])
+    return () => {
+      delete store.updateComponents[key][subId];
+    }
   }, [quark, key, store, storeRef]);
 	// return value
   return store.values[key];
